@@ -65,11 +65,11 @@
                     <li><a href="#" onclick="DevFeature_Alert()">Category</a></li>
                     <li><a href="#" onclick="DevFeature_Alert()">Country</a></li>
                     <li><a href="#" onclick="DevFeature_Alert()">Artist</a></li>
-                    <li><a href="#" onclick="DevFeature_Alert()">Blog</a></li>
+                    <li><a href="@Url.Action("Blog_News", "Home", null, Request.Url.Scheme)">Blog</a></li>
                     <li><a href="@Url.Action("Contact", "Home", null, Request.Url.Scheme)">Contact</a></li>
                 </ul>
             </li>
-            <li><a href="#" onclick="DevFeature_Alert()">News</a></li>
+            <li><a href="@Url.Action("Blog_News", "Home", null, Request.Url.Scheme)">News</a></li>
             <li><a href="@Url.Action("Contact", "Home", null, Request.Url.Scheme)">Contact</a></li>
         </ul>
     </header>
@@ -86,7 +86,7 @@
                                 <h2>About us</h2>
                                 <ul>
                                     <li><a href="#" onclick="DevFeature_Alert()">Our Story</a></li>
-                                    <li><a href="#" onclick="DevFeature_Alert()">KDK Music Blog</a></li>
+                                    <li><a href="@Url.Action("Blog_News", "Home", null, Request.Url.Scheme)"">KDK Music Blog</a></li>
                                     <li><a href="#" onclick="DevFeature_Alert()">History</a></li>
                                 </ul>
                             </div>
@@ -109,7 +109,7 @@
                                     <li><a href="#" onclick="DevFeature_Alert()">Newsletter</a></li>
                                     <li><a href="#" onclick="DevFeature_Alert()">Careers</a></li>
                                     <li><a href="#" onclick="DevFeature_Alert()">Press</a></li>
-                                    <li><a href="#" onclick="DevFeature_Alert()">Contact</a></li>
+                                    <li><a href="@Url.Action("Contact", "Home", null, Request.Url.Scheme)">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
