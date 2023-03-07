@@ -1817,8 +1817,8 @@
     <Content Include="Assets\Admin\css\style.css" />
     <Content Include="Assets\Admin\icon-fonts\fontawesome-webfont.svg" />
     <Content Include="Assets\Admin\img\artist.jpg" />
-    <Content Include="Assets\Admin\img\blog\1.jpg" />
-    <Content Include="Assets\Admin\img\blog\2.jpg" />
+    <Content Include="Assets\Admin\img\blog\Charlieputh.jpg" />
+    <Content Include="Assets\Admin\img\blog\Newjeans.jpg" />
     <Content Include="Assets\Admin\img\blog\3.jpg" />
     <Content Include="Assets\Admin\img\concept\1.jpg" />
     <Content Include="Assets\Admin\img\concept\2.jpg" />
@@ -2075,6 +2075,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\MyJS\Login.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -2091,6 +2092,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Home\Register.cshtml" />
+    <Content Include="Views\Home\Blog_News.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

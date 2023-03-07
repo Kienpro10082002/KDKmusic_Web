@@ -45,7 +45,7 @@
 
     <!-- Header section -->
     <header class="header-section clearfix">
-        <a href="index.html" class="site-logo">
+        <a href="@Url.Action("Index", "Home", null, Request.Url.Scheme)" class="site-logo">
             <img src="~/Content/Images/KDKLOGO.png" alt="">
         </a>
         <div class="header-right">
@@ -57,20 +57,20 @@
             </div>
         </div>
         <ul class="main-menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="@Url.Action("Index", "Home", null, Request.Url.Scheme)">Home</a></li>
+            <li><a href="@Url.Action("About", "Home", null, Request.Url.Scheme)">About</a></li>
             <li>
                 <a href="#">Pages</a>
                 <ul class="sub-menu">
-                    <li><a href="category.html">Category</a></li>
-                    <li><a href="country.html">Country</a></li>
-                    <li><a href="artist.html">Artist</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#" onclick="DevFeature_Alert()">Category</a></li>
+                    <li><a href="#" onclick="DevFeature_Alert()">Country</a></li>
+                    <li><a href="#" onclick="DevFeature_Alert()">Artist</a></li>
+                    <li><a href="#" onclick="DevFeature_Alert()">Blog</a></li>
+                    <li><a href="@Url.Action("Contact", "Home", null, Request.Url.Scheme)">Contact</a></li>
                 </ul>
             </li>
-            <li><a href="blog.html">News</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#" onclick="DevFeature_Alert()">News</a></li>
+            <li><a href="@Url.Action("Contact", "Home", null, Request.Url.Scheme)">Contact</a></li>
         </ul>
     </header>
     <!-- Header section end -->
@@ -85,9 +85,9 @@
                             <div class="footer-widget">
                                 <h2>About us</h2>
                                 <ul>
-                                    <li><a href="">Our Story</a></li>
-                                    <li><a href="">Sol Music Blog</a></li>
-                                    <li><a href="">History</a></li>
+                                    <li><a href="#" onclick="DevFeature_Alert()">Our Story</a></li>
+                                    <li><a href="#" onclick="DevFeature_Alert()">KDK Music Blog</a></li>
+                                    <li><a href="#" onclick="DevFeature_Alert()">History</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -95,10 +95,10 @@
                             <div class="footer-widget">
                                 <h2>Products</h2>
                                 <ul>
-                                    <li><a href="">Music</a></li>
-                                    <li><a href="">Subscription</a></li>
-                                    <li><a href="">Custom Music</a></li>
-                                    <li><a href="">Footage</a></li>
+                                    <li><a href="#" onclick="DevFeature_Alert()">Music</a></li>
+                                    <li><a href="#" onclick="DevFeature_Alert()">Subscription</a></li>
+                                    <li><a href="#" onclick="DevFeature_Alert()">Custom Music</a></li>
+                                    <li><a href="#" onclick="DevFeature_Alert()">Footage</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -106,17 +106,17 @@
                             <div class="footer-widget">
                                 <h2>Playlists</h2>
                                 <ul>
-                                    <li><a href="">Newsletter</a></li>
-                                    <li><a href="">Careers</a></li>
-                                    <li><a href="">Press</a></li>
-                                    <li><a href="">Contact</a></li>
+                                    <li><a href="#" onclick="DevFeature_Alert()">Newsletter</a></li>
+                                    <li><a href="#" onclick="DevFeature_Alert()">Careers</a></li>
+                                    <li><a href="#" onclick="DevFeature_Alert()">Press</a></li>
+                                    <li><a href="#" onclick="DevFeature_Alert()">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-5 order-lg-1">
-                    <img src="~/Assets/Admin/img/logo.png" alt="">
+                    <img src="~/Content/Images/KDKLOGO.png" alt="">
                     <div class="copyright">
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         Copyright &copy;
@@ -124,11 +124,11 @@
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </div>
                     <div class="social-links">
-                        <a href=""><i class="fa fa-instagram"></i></a>
-                        <a href=""><i class="fa fa-pinterest"></i></a>
-                        <a href=""><i class="fa fa-facebook"></i></a>
-                        <a href=""><i class="fa fa-twitter"></i></a>
-                        <a href=""><i class="fa fa-youtube"></i></a>
+                        <a href="#" onclick="DevFeature_Alert()"><i class="fa fa-instagram"></i></a>
+                        <a href="#" onclick="DevFeature_Alert()"><i class="fa fa-pinterest"></i></a>
+                        <a href="#" onclick="DevFeature_Alert()"><i class="fa fa-facebook"></i></a>
+                        <a href="#" onclick="DevFeature_Alert()"><i class="fa fa-twitter"></i></a>
+                        <a href="#" onclick="DevFeature_Alert()"><i class="fa fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
@@ -153,5 +153,8 @@
 
     <!-- Custom scripts for all pages-->
     <script src="~/Assets/Admin1/s/sb-admin-2.min.js"></script>
+
+    <!--User dev-->
+    <script src="~/Scripts/MyJS/Login.js"></script>
 </body>
 </html>

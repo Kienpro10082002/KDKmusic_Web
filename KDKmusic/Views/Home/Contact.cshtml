@@ -1,17 +1,41 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
-
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
-
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-6 p-0">
+            <!-- Map -->
+            <div class="map"><iframe src="https://maps.google.com/maps?q=10/80C XL Hà Nội, Phường Tân Phú, Thủ Đức, Thành phố Hồ Chí Minh&t=&z=14&ie=UTF8&iwloc=&output=embed" style="border:0" allowfullscreen></iframe></div>
+        </div>
+        <div class="col-lg-6 p-0">
+            <div class="contact-warp">
+                <div class="section-title mb-0">
+                    <h2>Liên lạc</h2> <!--Get in touch-->
+                </div>
+                <p>Cảm ơn tất cả người dùng đã quan tâm và trải nghiệm website này. Website KDK music của chúng tôi chân thành cảm ơn một lần nữa. Nếu có sai sót gì về trang web thì mọi người thông cảm cho nhà phát triển của chúng tôi.</p>
+                <ul>
+                    <li>Xa lộ Hà Nội , Số 10/80C </li>
+                    <li>+84 344 156 xxx</li>
+                    <li>KDKmusic@KDKentertainment.com</li>
+                </ul>
+                <form class="contact-from">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" placeholder="Tên của bạn">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" placeholder="E-mail của bạn">
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" placeholder="Chủ đề">
+                            <textarea placeholder="Tin nhắn"></textarea>
+                            <button class="site-btn">Gửi tin nhắn</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+	</section>
+<!-- Blog section end -->

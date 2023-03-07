@@ -40,5 +40,12 @@ namespace KDKmusic.Controllers
 
             return View();
         }
+
+        public ActionResult Blog_News()
+        {
+            ViewBag.Message = "Blog and News";
+
+            return View();
+        }
     }
 }
